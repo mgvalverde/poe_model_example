@@ -2,7 +2,7 @@
 name = "poe_model_example"
 version = "0.1.0"
 description = ""
-authors = ["M Gil Valverde <manuel.gil@sdggroup.com>"]
+authors = ["M Gil Valverde"]
 
 [tool.poetry.dependencies]
 python = "^3.7.1"
