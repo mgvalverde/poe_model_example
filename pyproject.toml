@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "poe_model_example"
+version = "0.1.0"
+description = ""
+authors = ["M Gil Valverde <manuel.gil@sdggroup.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7.1"
+pandas = "^1.2.1"
+scikit-learn = "^0.24.1"
+click = "^7.1.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+main = "poe_model_example.main:hello"
