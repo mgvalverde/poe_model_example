@@ -19,3 +19,4 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
 main = "poe_model_example.main:hello"
+train = "poe_model_example.train:train"
